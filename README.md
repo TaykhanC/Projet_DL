@@ -26,6 +26,12 @@ src/models/music-transformer-final.ckpt
 ## Lancer le projet
 À la racine du projet :
 
+Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux / macOS
+.venv\Scripts\activate      # Windows
+
 ```bash
 pip install -r requirements.txt
 python app_gradio.py
