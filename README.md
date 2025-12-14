@@ -23,6 +23,15 @@ Il est disponible au téléchargement à l’adresse suivante :
 Après téléchargement, placer le fichier dans :
 src/models/music-transformer-final.ckpt
 
+## Prérequis
+
+- Python **3.10** 
+- pip
+- Environnement virtuel Python (`venv`)
+
+- Le projet a été développé et testé avec Python 3.10.  
+- L’utilisation de versions plus récentes (ex. 3.12 / 3.13) peut entraîner des incompatibilités avec certaines dépendances.
+
 ## Lancer le projet
 À la racine du projet :
 
