@@ -1,0 +1,11 @@
+{
+  "tokenizer_type": "REMI",
+  "vocab_size": 453,
+  "max_seq_len": 1024,
+  "min_seq_len": 32,
+  "stride": 512,
+  "num_velocities": 32,
+  "train_sequences": 42318,
+  "val_sequences": 4801,
+  "test_sequences": 5534
+}
