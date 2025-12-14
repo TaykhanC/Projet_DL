@@ -18,7 +18,7 @@ Le modèle est entraîné avec **PyTorch Lightning** et permet de générer auto
 Le modèle final entraîné n’est pas inclus dans ce dépôt en raison de sa taille (>100 MB).
 
 Il est disponible au téléchargement à l’adresse suivante :
-[]
+[https://drive.google.com/drive/folders/1t66cRYXpZrvrjQs50oCkA99QFENA3YXu]
 
 Après téléchargement, placer le fichier dans :
 src/models/music-transformer-final.ckpt
