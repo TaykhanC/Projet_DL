@@ -25,11 +25,11 @@ src/models/music-transformer-final.ckpt
 
 ## Prérequis
 
-- Python **3.10** 
+- Python **3.11** 
 - pip
 - Environnement virtuel Python (`venv`)
 
-- Le projet a été développé et testé avec Python 3.10.  
+- Le projet a été développé et testé avec Python 3.11.  
 - L’utilisation de versions plus récentes (ex. 3.12 / 3.13) peut entraîner des incompatibilités avec certaines dépendances.
 
 ## Lancer le projet
@@ -42,5 +42,5 @@ source .venv/bin/activate   # Linux / macOS
 .venv\Scripts\activate      # Windows
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python app_gradio.py
