@@ -37,9 +37,9 @@ src/models/music-transformer-final.ckpt
 
 Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / macOS
-.venv\Scripts\activate      # Windows
+py -3.11 -m venv venv
+venv\Scripts\activate      # git bash
+python -m pip install --upgrade pip
 ```
 
 ### Installer PyTorch
@@ -65,7 +65,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 
 
 ```bash
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 python app_gradio.py
 
 ```
