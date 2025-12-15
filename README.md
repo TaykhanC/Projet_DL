@@ -38,7 +38,7 @@ src/models/music-transformer-final.ckpt
 Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
 ```bash
 py -3.11 -m venv venv
-venv\Scripts\activate      # git bash
+venv\Scripts\activate      # powershell
 python -m pip install --upgrade pip
 ```
 
