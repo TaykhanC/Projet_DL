@@ -40,7 +40,32 @@ Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour in
 python -m venv .venv
 source .venv/bin/activate   # Linux / macOS
 .venv\Scripts\activate      # Windows
+```
+
+### Installer PyTorch
+
+**IMPORTANT** : Installez PyTorch AVANT les autres dépendances.
+
+**Pour CPU uniquement :**
+```bash
+pip install torch torchvision
+```
+
+**Pour GPU NVIDIA (vérifiez votre version CUDA avec `nvidia-smi`) :**
+```bash
+# CUDA 11.8
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# CUDA 12.1
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# CUDA 12.4+
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+```
+
 
 ```bash
 python -m pip install -r requirements.txt
 python app_gradio.py
+
+```
